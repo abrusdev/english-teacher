@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">English Teacher</string>
+    <string name="category">Name</string>
+    <string name="add_vocabulary">Add Vocabulary</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474652413746",
+    "project_id": "callrecorder-fa9af",
+    "storage_bucket": "callrecorder-fa9af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474652413746:android:7903471f5c21e01bb5912b",
+        "android_client_info": {
+          "package_name": "ru.abrus.english.teacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474652413746-tqp2gomg6pda5o8k61jbqlfk06cuiuqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuAFUWU4YojIZlWN_wlVc2-b7NEY13h8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474652413746-tqp2gomg6pda5o8k61jbqlfk06cuiuqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

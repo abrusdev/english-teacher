@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/answer"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardBackgroundColor="@color/white">
+
+    <TextView
+        android:id="@+id/answerText"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="12dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/color_font"
+        android:alpha="0.9"
+        android:layout_height="match_parent"
+        android:text="Hello"/>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary"
+    tools:context=".ui.activities.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/dancing_script"
+            android:text="Learn your vocabulary faster with us"
+            android:textColor="@color/color_back"
+            android:textSize="22sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerCategories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_rounded_back_card"
+            android:clipToPadding="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="75dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="2"
+            tools:listitem="@layout/item_category" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/addCategory"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_primary_card"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/roboto_bold"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Add Vocabulary"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="UnusedAttribute" />
+
+        <ImageView
+            android:id="@+id/uploadData"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/rounded_gradient_green_card"
+            android:fontFamily="@font/roboto_bold"
+            android:padding="15dp"
+            android:src="@drawable/ic_upload"
+            android:textColor="@color/white"
+            app:tint="@color/white"
+            tools:ignore="ContentDescription,UnusedAttribute" />
+    </LinearLayout>
+
+
+</RelativeLayout>
